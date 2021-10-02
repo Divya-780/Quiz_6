@@ -8,4 +8,4 @@ for i in words:
     else:
         dict_[i]=1
 
-print(sorted(dict_.items()))
+print(sorted(dict_.items(),reverse=True))
